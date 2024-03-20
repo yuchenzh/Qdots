@@ -1,0 +1,6 @@
+blockMesh
+foamDictionary system/controlDict -entry startFrom -set latestTime
+foamDictionary system/controlDict -entry endTime -set 20
+reactingFoam
+foamDictionary system/controlDict -entry endTime -set 40
+reactingFoam
